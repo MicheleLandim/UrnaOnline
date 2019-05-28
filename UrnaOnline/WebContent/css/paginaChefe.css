@@ -1,0 +1,57 @@
+@charset "ISO-8859-1";
+
+body {
+	 margin: 0;
+	 padding: 0;
+	 font-family: sans-serif;
+	 background: #5e6c7a;
+}
+.boxChefe h1{
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 500;
+}
+.boxChefe{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 300px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+transition: 0,25s; 
+}
+.boxChefe{
+	width: 500px; <!-- teoricamente o tamanho do quadrado --> 
+	padding: 45px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #191919;
+	text-align: center;
+	border-radius: 10px;
+}
+.boxChefe input[type = "button"]{
+	border: 0;
+	background: none;
+	display: block;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	transition: 0,25s;
+	cursor: pointer; 
+	text-align: center;
+	margin: 20px auto;
+	border: 2px solid #44b7ff;
+	padding: 14px 15px;	
+}
+
+.boxChefe table{
+	    align-self:center;
+}

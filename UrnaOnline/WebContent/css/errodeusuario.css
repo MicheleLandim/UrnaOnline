@@ -1,0 +1,34 @@
+@charset "ISO-8859-1";
+
+body {
+	 margin: 0;
+	 padding: 0;
+	 font-family: sans-serif;
+	 background: #5e6c7a;
+}
+.boxerro{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 300px;
+	outline: none;
+	color: white;	
+	border-radius: 24px;
+transition: 0,25s; 
+}
+.boxerro{
+	width: 500px; <!-- tamanho do quadrado -->
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #191919;
+	text-align: center;
+	border-radius: 10px;
+}
+

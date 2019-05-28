@@ -1,0 +1,83 @@
+@charset "ISO-8859-1";
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #5e6c7a;
+}
+
+.boxMesario h1 {
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 500;
+	size: 2;
+}
+
+.boxMesario {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 300px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0, 25s;
+}
+
+.boxMesario {
+	width: 500px; <!-- tamanho do quadrado --> padding : 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #191919;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.boxMesario input[type="text"], .boxMesario input[type="date"] {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	width: 250;
+	color: #7c7c7b;
+}
+
+.boxMesario label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.boxMesario label>span {
+	display: inline-block;
+	float: left;
+	width: 150px;
+	text-align:left;
+}
+
+.boxMesario input[type="text"]:focus, .boxMesario input[type="date"]:focus
+	{
+	border-bottom: 1px dashed #D9FFA9;
+}
+
+.boxMesario input[type = "button"], .boxMesario input[type = "submit"] {
+	background: #576E86;
+	border: none;
+	padding: 8px 10px 8px 10px;
+	border-radius: 5px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.boxMesario input[type = "button"]:hover, .boxMesario input[type = "submit"]:hover  {
+	background: #394D61;
+	font-weight: bold;
+}
+.boxMesario table{
+	    align-self:center;
+}
